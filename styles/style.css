@@ -1,12 +1,51 @@
-#main{
-	width: 1000px;
+div#main{
+	width: 900px;
 	text-align: left;
+	margin: auto;
+	padding: auto;
+	size: auto;
+    height: 100%; 
+    background:lightgrey; 
+    overflow:auto;
 }
 .columnl {
+	overflow: auto;
     float: left;
     width: 50%;
 }
 .columnr {
+	overflow: auto;
     float: right;
     width: 50%;
+}
+div.section{
+	margin: 40px;
+}
+div.section > p.title{
+	text-align: left;
+	color: darkblue;
+	text-transform: uppercase;
+	font-size: 130%;
+	font-weight: bold;
+}
+div.section p.data{
+	margin: 0px;
+	padding: 0px;
+}
+div.section div.title{
+	float: left;
+	width: 50%;
+}
+div.title > p{
+	font-weight: bold;
+}
+div.title > p.period{
+	color: orange;
+}
+div.title > p.name{
+	color: darkblue;
+}
+div.section div.info{
+	float: right;
+	width: 50%;
 }
