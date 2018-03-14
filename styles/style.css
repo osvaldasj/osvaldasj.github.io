@@ -1,0 +1,12 @@
+#main{
+	width: 1000px;
+	text-align: left;
+}
+.columnl {
+    float: left;
+    width: 50%;
+}
+.columnr {
+    float: right;
+    width: 50%;
+}
